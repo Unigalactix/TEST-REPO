@@ -1,0 +1,19 @@
+{
+  "name": "jira-agent-sample-node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build step for this sample'",
+    "start": "node src/index.js",
+    "test": "jest --runInBand",
+    "lint": "echo 'No lint step for this sample'"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
